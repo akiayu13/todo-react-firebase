@@ -2,6 +2,13 @@
   "name": "todo_fb",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "install": "install --legacy-peer-deps",
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "heroku-postbuild": "npm config set legacy-peer-deps true && npm install --legacy-peer-deps && npm start",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
@@ -21,13 +28,6 @@
     "react-router-dom": "^5.3.3",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "install": "install --legacy-peer-deps",
-    "start": "react-scripts start",
-    "test": "react-scripts test",
-    "heroku-postbuild": "npm config set legacy-peer-deps true && npm install --legacy-peer-deps && npm start",
-    "eject": "react-scripts eject"
   },
   "browserslist": {
     "production": [
