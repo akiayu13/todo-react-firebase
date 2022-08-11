@@ -1,0 +1,35 @@
+.google-btn {
+  align-self: center;
+  align-items: center;
+  width: 184px;
+  height: 39px;
+  background-color: purple;
+  border-radius: 2px;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.google-icon-wrapper {
+  float: left;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 40px;
+  height: 39px;
+  border-radius: 2px;
+  background-color: #fff;
+}
+.google-icon {
+  display: flex;
+  margin-top: 11px;
+  margin-left: 10px;
+  width: 18px;
+  height: 18px;
+}
+.btn-text {
+  float: right;
+  margin: 11px 11px 0 0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  font-family: "Roboto";
+}

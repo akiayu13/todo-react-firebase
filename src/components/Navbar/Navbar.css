@@ -1,0 +1,40 @@
+.head {
+  justify-content: left;
+  display: inline-flex;
+}
+.nav-mobile {
+  display: inline-flex;
+}
+h4 {
+  font-weight: 500;
+  font-family: "Roboto";
+  margin-left: 20px;
+  color: purple;
+}
+h4:hover {
+  color: rgb(19, 19, 19);
+}
+.nav-button {
+  justify-content: right;
+  align-self: center;
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+  width: 80px;
+  height: 40px;
+  background-color: rgba(19, 19, 19, 0);
+  border-radius: 5px;
+  border: none;
+
+  /* border: 1px sold blueviolet; */
+}
+span {
+  color: purple;
+  font-weight: 500;
+  font-size: large;
+}
+.nav-button :hover {
+  /* background: rgb(19, 19, 19); */
+  color: rgb(22, 22, 22);
+  transition: all 0.2s ease-in-out;
+}
