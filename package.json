@@ -24,7 +24,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test",
     "heroku-postbuild": "npm config set legacy-peer-deps true && npm install --legacy-peer-deps && npm start",
     "eject": "react-scripts eject"
